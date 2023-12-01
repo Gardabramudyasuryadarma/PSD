@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 
 
-<html lang="en" >
+<html lang="en" data-content_root="" >
 
   <head>
     <meta charset="utf-8" />
@@ -19,12 +19,12 @@
   </script>
   
   <!-- Loaded before other Sphinx assets -->
-  <link href="_static/styles/theme.css?digest=365ca57ee442770a23c6" rel="stylesheet" />
-<link href="_static/styles/bootstrap.css?digest=365ca57ee442770a23c6" rel="stylesheet" />
-<link href="_static/styles/pydata-sphinx-theme.css?digest=365ca57ee442770a23c6" rel="stylesheet" />
+  <link href="_static/styles/theme.css?digest=5b4479735964841361fd" rel="stylesheet" />
+<link href="_static/styles/bootstrap.css?digest=5b4479735964841361fd" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=5b4479735964841361fd" rel="stylesheet" />
 
   
-  <link href="_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=365ca57ee442770a23c6" rel="stylesheet" />
+  <link href="_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=5b4479735964841361fd" rel="stylesheet" />
   <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
 <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
 <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
@@ -38,9 +38,9 @@
     <link rel="stylesheet" type="text/css" href="_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
-  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=365ca57ee442770a23c6" />
-<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=365ca57ee442770a23c6" />
-  <script src="_static/vendor/fontawesome/6.1.2/js/all.min.js?digest=365ca57ee442770a23c6"></script>
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=5b4479735964841361fd" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=5b4479735964841361fd" />
+  <script src="_static/vendor/fontawesome/6.1.2/js/all.min.js?digest=5b4479735964841361fd"></script>
 
     <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
     <script src="_static/jquery.js"></script>
@@ -67,6 +67,7 @@ const thebe_selector_output = ".output, .cell_output"
     <script>DOCUMENTATION_OPTIONS.pagename = 'Saintdatapert4';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="LIVER CLASIFICATIOON" href="Liver.html" />
     <link rel="prev" title="Welcome to your Jupyter Book" href="intro.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
@@ -140,6 +141,7 @@ const thebe_selector_output = ".output, .cell_output"
   
     <div class="sidebar-primary-items__start sidebar-primary__section">
         <div class="sidebar-primary-item">
+
   
 
 <a class="navbar-brand logo" href="intro.html">
@@ -170,6 +172,15 @@ const thebe_selector_output = ".output, .cell_output"
         </ul>
         <ul class="current nav bd-sidenav">
 <li class="toctree-l1 current active"><a class="current reference internal" href="#"><strong>AUDIOCLASIFIER</strong></a></li>
+
+
+
+
+<li class="toctree-l1"><a class="reference internal" href="Liver.html"><strong>LIVER CLASIFICATIOON</strong></a></li>
+
+
+
+
 
 </ul>
 
@@ -324,6 +335,7 @@ const thebe_selector_output = ".output, .cell_output"
 </button>
 
 
+
 <script>
 document.write(`
   <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
@@ -333,6 +345,7 @@ document.write(`
   </button>
 `);
 </script>
+
 
 <script>
 document.write(`
@@ -365,7 +378,10 @@ document.write(`
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
 <li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#"><strong>AUDIOCLASIFIER</strong></a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#tujuan-analisis-data"><strong>Tujuan Analisis Data</strong></a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#data-understanding"><strong>Data Understanding</strong></a></li>
 <li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#preprocessing">Preprocessing</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#modelling"><strong>Modelling</strong></a></li>
 </ul>
 
             </nav>
@@ -380,9 +396,30 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="audioclasifier">
 <h1><strong>AUDIOCLASIFIER</strong><a class="headerlink" href="#audioclasifier" title="Permalink to this heading">#</a></h1>
+</section>
+<section class="tex2jax_ignore mathjax_ignore" id="tujuan-analisis-data">
+<h1><strong>Tujuan Analisis Data</strong><a class="headerlink" href="#tujuan-analisis-data" title="Permalink to this heading">#</a></h1>
+<ul class="simple">
+<li><p>Tujuan analisis data audio classification adalah untuk mengidentifikasi emosi manusia. Berdasarkan dataset yang dikumpulkan. tujuan utama dari analisis ini adalah untuk mengetahui emosi manusia</p></li>
+</ul>
+</section>
+<section class="tex2jax_ignore mathjax_ignore" id="data-understanding">
+<h1><strong>Data Understanding</strong><a class="headerlink" href="#data-understanding" title="Permalink to this heading">#</a></h1>
+<ul class="simple">
+<li><p>Kumpulan data ini berisi 2800 data suara yang terdiri dari 7  emosi yaitu (anger, disgust, fear, happiness, pleasant surprise, sadness, and neutral). dengan 200 kata target yang diucapkan dalam frasa pembawa Ucapkan kata oleh dua aktris (berusia 26 dan 64 tahun).</p></li>
+<li><p>Data ini memiliki 7 label yaitu (anger, disgust, fear, happiness, pleasant surprise, sadness, and neutral)</p></li>
+</ul>
+<p>#<strong>Eksplorasi Data</strong></p>
+<ul class="simple">
+<li><p>Kumpulan data ini berisi 2800 data suara yang terdiri dari 7  emosi yaitu (anger, disgust, fear, happiness, pleasant surprise, sadness, and neutral). dengan 200 kata target yang diucapkan dalam frasa pembawa Ucapkan kata oleh dua aktris (berusia 26 dan 64 tahun).</p></li>
+<li><p>Jumlah data = 2800</p></li>
+<li><p>Jumlah kelas = 7</p></li>
+<li><p>Nama kelas = anger, disgust, fear, happiness, pleasant surprise, sadness, and neutral</p></li>
+</ul>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">google.colab</span> <span class="kn">import</span> <span class="n">drive</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># pertama mount agar connect ke Gdrive</span>
+<span class="kn">from</span> <span class="nn">google.colab</span> <span class="kn">import</span> <span class="n">drive</span>
 <span class="n">drive</span><span class="o">.</span><span class="n">mount</span><span class="p">(</span><span class="s1">&#39;/content/drive&#39;</span><span class="p">)</span>
 </pre></div>
 </div>
@@ -390,9 +427,10 @@ document.write(`
 <div class="cell_output docutils container">
 <div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
 <span class="ne">KeyboardInterrupt</span><span class="g g-Whitespace">                         </span>Traceback (most recent call last)
-<span class="nn">&lt;ipython-input-1-d5df0069828e&gt;</span> in <span class="ni">&lt;cell line: 2&gt;</span><span class="nt">()</span>
-<span class="g g-Whitespace">      </span><span class="mi">1</span> <span class="kn">from</span> <span class="nn">google.colab</span> <span class="kn">import</span> <span class="n">drive</span>
-<span class="ne">----&gt; </span><span class="mi">2</span> <span class="n">drive</span><span class="o">.</span><span class="n">mount</span><span class="p">(</span><span class="s1">&#39;/content/drive&#39;</span><span class="p">)</span>
+<span class="nn">&lt;ipython-input-1-01d707e40425&gt;</span> in <span class="ni">&lt;cell line: 3&gt;</span><span class="nt">()</span>
+<span class="g g-Whitespace">      </span><span class="mi">1</span> <span class="c1"># pertama mount agar connect ke Gdrive</span>
+<span class="g g-Whitespace">      </span><span class="mi">2</span> <span class="kn">from</span> <span class="nn">google.colab</span> <span class="kn">import</span> <span class="n">drive</span>
+<span class="ne">----&gt; </span><span class="mi">3</span> <span class="n">drive</span><span class="o">.</span><span class="n">mount</span><span class="p">(</span><span class="s1">&#39;/content/drive&#39;</span><span class="p">)</span>
 
 <span class="nn">/usr/local/lib/python3.10/dist-packages/google/colab/drive.py</span> in <span class="ni">mount</span><span class="nt">(mountpoint, force_remount, timeout_ms, readonly)</span>
 <span class="g g-Whitespace">    </span><span class="mi">101</span> <span class="k">def</span> <span class="nf">mount</span><span class="p">(</span><span class="n">mountpoint</span><span class="p">,</span> <span class="n">force_remount</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">timeout_ms</span><span class="o">=</span><span class="mi">120000</span><span class="p">,</span> <span class="n">readonly</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
@@ -505,7 +543,10 @@ Requirement already satisfied: certifi&gt;=2017.4.17 in /usr/local/lib/python3.1
 <p>Pada data berikut adalah:</p>
 <p>-1 Menghitung nilai Statistika,nilai ZCR, dan RMSE</p>
 <p>-2 Normalisasi</p>
-<p>##<strong>Menghitung nilai statistika,zcr, dan rmse</strong></p>
+<p>#<strong>Menghitung nilai statistika,zcr, dan rmse</strong></p>
+<ul class="simple">
+<li><p>menghitung statistik ini digunakan untuk fitur dari suara yang sudah diekstrak</p></li>
+</ul>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">calculate_statistics</span><span class="p">(</span><span class="n">audio_path</span><span class="p">):</span>
@@ -550,7 +591,7 @@ Requirement already satisfied: certifi&gt;=2017.4.17 in /usr/local/lib/python3.1
 </div>
 </div>
 </div>
-<p>##<strong>Code dibawah ini mengumpulkan statistik dari file audio berformat WAV dalam sejumlah folder.</strong></p>
+<p><strong>Code dibawah ini mengumpulkan statistik dari file audio berformat WAV dalam sejumlah folder dan membuat data suara menjadi 10 fitur.</strong></p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">for</span> <span class="n">folder</span> <span class="ow">in</span> <span class="n">folders</span><span class="p">:</span>
@@ -1576,23 +1617,72 @@ dtype: float64
 </div>
 </div>
 </div>
+</section>
+<section class="tex2jax_ignore mathjax_ignore" id="modelling">
+<h1><strong>Modelling</strong><a class="headerlink" href="#modelling" title="Permalink to this heading">#</a></h1>
+<p><strong>KNeighborClasifier (KNN)</strong></p>
+<p>K-Nearest Neighbors (KNN) adalah algoritma machine learning yang digunakan untuk tugas klasifikasi dan regresi. Algoritma ini termasuk dalam kategori algoritma berbasis instan, yang berarti modelnya mempelajari pola langsung dari data pelatihan yang disimpan. KNN mengandalkan perbandingan kemiripan antara data baru dan data pelatihan untuk membuat prediksi.</p>
+<ul class="simple">
+<li><p><strong>K</strong>:
+K adalah parameter dalam KNN yang menentukan jumlah tetangga terdekat yang akan dipertimbangkan saat membuat prediksi. Misalnya, jika K = 3, model akan mempertimbangkan tiga tetangga terdekat untuk menentukan kelas atau nilai regresi.</p></li>
+<li><p><strong>Fungsi Jarak</strong>:
+KNN menggunakan fungsi jarak (misalnya, Euclidean distance atau Manhattan distance) untuk mengukur seberapa dekat atau jauhnya suatu data baru dari data pelatihan. Jarak ini digunakan untuk mengidentifikasi tetangga terdekat.</p></li>
+<li><p><strong>Voting untuk Klasifikasi</strong>:
+Pada tugas klasifikasi, KNN melakukan “voting” di antara tetangga terdekat untuk menentukan kelas mayoritas. Misalnya, jika K = 3 dan dua tetangga termasuk ke dalam kelas A dan satu ke dalam kelas B, data baru akan diklasifikasikan sebagai kelas A.</p></li>
+<li><p><strong>Rata-rata untuk Regresi</strong>:
+Pada tugas regresi, KNN mengambil rata-rata nilai target dari tetangga terdekat untuk menghasilkan prediksi nilai kontinu.</p></li>
+<li><p><strong>Skala Fitur</strong>:
+KNN sangat sensitif terhadap skala fitur. Penting untuk memastikan bahwa semua fitur memiliki skala yang serupa agar pengaruhnya terhadap perhitungan jarak seimbang.</p></li>
+<li><p><strong>Tuning Parameter K</strong>:
+Pemilihan nilai K yang optimal dapat mempengaruhi kinerja model. Nilai K yang terlalu kecil dapat menyebabkan model menjadi sensitif terhadap noise, sementara nilai K yang terlalu besar dapat menyebabkan model menjadi terlalu umum</p></li>
+</ul>
+<p>#<strong>Rumus K-NN</strong>
+$<span class="math notranslate nohighlight">\(d(X_{\text{new}}, X_i) =\sqrt{\sum_{j=1}^{n}(X_{\text{new}, j} - X_{i, j})^2}'))\)</span>$</p>
+<p>#<strong>Penggunaan Rumus KNN</strong></p>
+<ul class="simple">
+<li><p><strong>Menentukan Parameter K</strong>:
+Pilih jumlah tetangga terdekat (K) yang akan digunakan dalam proses klasifikasi atau regresi. Nilai K ini sangat mempengaruhi kinerja algoritma.</p></li>
+<li><p><strong>Menghitung Jarak</strong>:
+Gunakan suatu metrik jarak (seperti Euclidean, Manhattan, Minkowski, dll.) untuk mengukur jarak antara titik data yang ingin diprediksi dan setiap titik data lainnya dalam dataset.</p></li>
+<li><p><strong>Mengidentifikasi Tetangga Terdekat</strong>:
+Temukan K tetangga terdekat berdasarkan jarak yang dihitung sebelumnya. Ini adalah tetangga-tetangga yang memiliki jarak terdekat dengan data yang ingin diprediksi.</p></li>
+<li><p><strong>Voting (Klasifikasi) atau Averaging (Regresi)</strong>:
+Klasifikasi: Dalam klasifikasi, atribut target data yang ingin diprediksi akan ditentukan oleh mayoritas kelas dari tetangga-tetangga terdekat. Misalnya, jika sebagian besar tetangga adalah kelas A, maka data yang ingin diprediksi juga diklasifikasikan sebagai kelas A.
+Regresi: Dalam regresi, atribut target data yang ingin diprediksi akan diestimasi dengan mengambil rata-rata nilai dari atribut target tetangga-tetangga terdekat.</p></li>
+<li><p><strong>Prediksi</strong>:
+Gunakan hasil dari langkah sebelumnya sebagai prediksi untuk data yang ingin diprediksi.</p></li>
+<li><p><strong>Pentingnya Parameter K</strong>:
+Nilai K yang terlalu kecil dapat membuat model sensitif terhadap noise atau outlier.
+Nilai K yang terlalu besar dapat menyebabkan model kurang fleksibel dan tidak dapat menangkap pola yang kompleks dalam data</p></li>
+</ul>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
 <span class="kn">from</span> <span class="nn">sklearn.neighbors</span> <span class="kn">import</span> <span class="n">KNeighborsClassifier</span>
 <span class="kn">from</span> <span class="nn">sklearn.metrics</span> <span class="kn">import</span> <span class="n">accuracy_score</span>
 
+<span class="c1"># Menentukan jumlah K (jumlah tetangga terdekat yang akan diuji)</span>
 <span class="n">K</span> <span class="o">=</span> <span class="mi">30</span>
+
+<span class="c1"># Inisialisasi array untuk menyimpan akurasi untuk setiap nilai K</span>
 <span class="n">acc</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">((</span><span class="n">K</span><span class="o">-</span><span class="mi">1</span><span class="p">))</span>
 
+<span class="c1"># Melakukan iterasi untuk nilai K dari 1 hingga K dengan loncatan 2 (karena K selalu harus ganjil untuk menghindari keputusan seimbang)</span>
 <span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">K</span><span class="p">,</span> <span class="mi">2</span><span class="p">):</span>
+    <span class="c1"># Membuat model KNN dengan nilai K saat ini dan metrik jarak Euclidean</span>
     <span class="n">knn</span> <span class="o">=</span> <span class="n">KNeighborsClassifier</span><span class="p">(</span><span class="n">n_neighbors</span><span class="o">=</span><span class="n">n</span><span class="p">,</span> <span class="n">metric</span><span class="o">=</span><span class="s2">&quot;euclidean&quot;</span><span class="p">)</span>
+
+    <span class="c1"># Melatih model dengan data latih yang telah dinormalisasi</span>
     <span class="n">knn</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_train_scaled</span><span class="p">,</span> <span class="n">y_train</span><span class="p">)</span>
+
+    <span class="c1"># Melakukan prediksi pada data uji</span>
     <span class="n">y_pred</span> <span class="o">=</span> <span class="n">knn</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X_test_scaled</span><span class="p">)</span>
 
+    <span class="c1"># Menghitung akurasi dan menyimpannya dalam array</span>
     <span class="n">acc</span><span class="p">[</span><span class="n">n</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="n">accuracy_score</span><span class="p">(</span><span class="n">y_test</span><span class="p">,</span> <span class="n">y_pred</span><span class="p">)</span>
 
-<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;akurasi terbaik adalah &#39;</span><span class="p">,</span> <span class="n">acc</span><span class="o">.</span><span class="n">max</span><span class="p">(),</span> <span class="s1">&#39;dengan nilai k =&#39;</span><span class="p">,</span> <span class="n">acc</span><span class="o">.</span><span class="n">argmax</span><span class="p">()</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span>
+<span class="c1"># Menampilkan nilai K dengan akurasi terbaik</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Akurasi terbaik adalah&#39;</span><span class="p">,</span> <span class="n">acc</span><span class="o">.</span><span class="n">max</span><span class="p">(),</span> <span class="s1">&#39;dengan nilai K =&#39;</span><span class="p">,</span> <span class="n">acc</span><span class="o">.</span><span class="n">argmax</span><span class="p">()</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -1604,7 +1694,13 @@ dtype: float64
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">knn</span> <span class="o">=</span> <span class="n">KNeighborsClassifier</span><span class="p">(</span><span class="n">n_neighbors</span><span class="o">=</span> <span class="mi">7</span><span class="p">,</span> <span class="n">metric</span> <span class="o">=</span> <span class="s2">&quot;euclidean&quot;</span><span class="p">)</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.neighbors</span> <span class="kn">import</span> <span class="n">KNeighborsClassifier</span>
+<span class="kn">from</span> <span class="nn">joblib</span> <span class="kn">import</span> <span class="n">dump</span>
+
+<span class="c1"># Membuat model KNN dengan 7 tetangga terdekat dan menggunakan metrik jarak Euclidean</span>
+<span class="n">knn</span> <span class="o">=</span> <span class="n">KNeighborsClassifier</span><span class="p">(</span><span class="n">n_neighbors</span><span class="o">=</span><span class="mi">7</span><span class="p">,</span> <span class="n">metric</span><span class="o">=</span><span class="s2">&quot;euclidean&quot;</span><span class="p">)</span>
+
+<span class="c1"># Menyimpan model ke dalam file &#39;modelknn1.pkl&#39; menggunakan joblib.dump</span>
 <span class="n">dump</span><span class="p">(</span><span class="n">knn</span><span class="p">,</span> <span class="nb">open</span><span class="p">(</span><span class="s1">&#39;modelknn1.pkl&#39;</span><span class="p">,</span> <span class="s1">&#39;wb&#39;</span><span class="p">))</span>
 </pre></div>
 </div>
@@ -1613,8 +1709,13 @@ dtype: float64
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">pickle</span>
+
+<span class="c1"># Membuka file model KNN yang telah disimpan sebelumnya</span>
 <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s1">&#39;modelknn.pkl&#39;</span><span class="p">,</span> <span class="s1">&#39;rb&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">knn</span><span class="p">:</span>
-    <span class="n">loadknn</span><span class="o">=</span> <span class="n">pickle</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="n">knn</span><span class="p">)</span>
+    <span class="c1"># Memuat model KNN dari file menggunakan pickle</span>
+    <span class="n">loadknn</span> <span class="o">=</span> <span class="n">pickle</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="n">knn</span><span class="p">)</span>
+
+<span class="c1"># Melatih model KNN yang telah dimuat dengan data latih baru</span>
 <span class="n">loadknn</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_train_scaled</span><span class="p">,</span> <span class="n">y_train</span><span class="p">)</span>
 </pre></div>
 </div>
@@ -1869,8 +1970,11 @@ dtype: float64
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">pickle</span>
+
+<span class="c1"># Membuka file yang berisi objek yang akan dimuat</span>
 <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s1">&#39;PCA9.pkl&#39;</span><span class="p">,</span> <span class="s1">&#39;rb&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">pca</span><span class="p">:</span>
-    <span class="n">loadpca</span><span class="o">=</span> <span class="n">pickle</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="n">pca</span><span class="p">)</span>
+    <span class="c1"># Memuat objek dari file menggunakan pickle</span>
+    <span class="n">loadpca</span> <span class="o">=</span> <span class="n">pickle</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="n">pca</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -1878,7 +1982,11 @@ dtype: float64
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.neighbors</span> <span class="kn">import</span> <span class="n">KNeighborsClassifier</span>
+
+<span class="c1"># Membuat objek classifier dengan model KNN dan jumlah tetangga = 11</span>
 <span class="n">classifier</span> <span class="o">=</span> <span class="n">KNeighborsClassifier</span><span class="p">(</span><span class="n">n_neighbors</span><span class="o">=</span><span class="mi">11</span><span class="p">)</span>
+
+<span class="c1"># Melatih model KNN dengan menggunakan data hasil reduksi dimensi (PCA) sebagai data pelatihan dan label y_train</span>
 <span class="n">classifier</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">pca_train</span><span class="p">,</span> <span class="n">y_train</span><span class="p">)</span>
 </pre></div>
 </div>
@@ -2077,7 +2185,7 @@ dtype: float64
               
               
                 <footer class="prev-next-footer">
-                  <!-- Previous / next buttons -->
+                  
 <div class="prev-next-area">
     <a class="left-prev"
        href="intro.html"
@@ -2087,6 +2195,15 @@ dtype: float64
         <p class="prev-next-subtitle">previous</p>
         <p class="prev-next-title">Welcome to your Jupyter Book</p>
       </div>
+    </a>
+    <a class="right-next"
+       href="Liver.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title"><strong>LIVER CLASIFICATIOON</strong></p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
     </a>
 </div>
                 </footer>
@@ -2104,7 +2221,10 @@ dtype: float64
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
 <li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#"><strong>AUDIOCLASIFIER</strong></a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#tujuan-analisis-data"><strong>Tujuan Analisis Data</strong></a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#data-understanding"><strong>Data Understanding</strong></a></li>
 <li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#preprocessing">Preprocessing</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#modelling"><strong>Modelling</strong></a></li>
 </ul>
 
   </nav></div>
@@ -2127,6 +2247,7 @@ By The Jupyter Book Community
   
   <div class="footer-item">
     
+
   <p class="copyright">
     
       © Copyright 2022.
@@ -2153,8 +2274,8 @@ By The Jupyter Book Community
   </div>
   
   <!-- Scripts loaded after <body> so the DOM is not blocked -->
-  <script src="_static/scripts/bootstrap.js?digest=365ca57ee442770a23c6"></script>
-<script src="_static/scripts/pydata-sphinx-theme.js?digest=365ca57ee442770a23c6"></script>
+  <script src="_static/scripts/bootstrap.js?digest=5b4479735964841361fd"></script>
+<script src="_static/scripts/pydata-sphinx-theme.js?digest=5b4479735964841361fd"></script>
 
   <footer class="bd-footer">
   </footer>
